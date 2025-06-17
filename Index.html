@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oplim - Smart Financial Management</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header>
+      <nav>
+        <div class="logo">Oplim</div>
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#theorigin">The Origin</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <section class="hero-banner" id="hero">
+      <div class="banner-background"></div>
+      <!-- Nova div para a imagem com blur -->
+      <div class="neuro-overlay"></div>
+      <div class="banner-content">
+        <h1 class="typing-effect hero-title">
+          Your money.<span class="typed-text"></span>
+        </h1>
+        <div class="progress-tracker">
+          <div class="progress-bar" data-progress="0"></div>
+          <p>Loading your financial freedom...</p>
+        </div>
+        <button class="cta-button" aria-label="Get started">
+          <span class="button-text">Start Now</span>
+          <span class="arrow">➔</span>
+        </button>
+      </div>
+    </section>
+
+    <main id="main-content">
+      <!-- Mission Section -->
+      <section id="mission" class="section animate-on-scroll">
+        <h2>Our <span>Mission</span></h2>
+        <div class="content-box">
+          <p>
+            We're transforming financial management by showing the true cost of
+            your lifestyle, not just tracking dollars.
+          </p>
+          <div class="mission-cards">
+            <div class="mission-card">
+              <div class="icon">💡</div>
+              <h3>Smart Insights</h3>
+              <p>Automatic cost-per-use calculations for all purchases</p>
+            </div>
+            <div class="mission-card">
+              <div class="icon">⏳</div>
+              <h3>Lifecycle Tracking</h3>
+              <p>Know exactly when to replace items for maximum value</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="section dark-section animate-on-scroll">
+        <h2>Key <span>Features</span></h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Expense AI</h3>
+            <p>Automated categorization with spending pattern recognition</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔄</div>
+            <h3>Usage Analytics</h3>
+            <p>Track product lifespan and actual cost-per-use</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔔</div>
+            <h3>Smart Alerts</h3>
+            <p>Get replacement reminders and spending warnings</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Roadmap Section -->
+      <section id="roadmap" class="section animate-on-scroll">
+        <h2>Development <span>Roadmap</span></h2>
+        <div class="timeline">
+          <div class="timeline-item current">
+            <div class="timeline-date">Q3 2025</div>
+            <div class="timeline-content">
+              <h3>Core Platform</h3>
+              <p>Building foundational architecture</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Q4 2026</div>
+            <div class="timeline-content">
+              <h3>Beta Testing</h3>
+              <p>Real-world testing with select users</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">Q1 2027</div>
+            <div class="timeline-content">
+              <h3>Public Launch</h3>
+              <p>Full release with all features</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="theorigin" class="section">
+        <h2>The Origin</h2>
+        <p class="subtitle">How a simple idea became a powerful habit.</p>
+        <p>
+          Oplim was born out of a real, personal need — the need to feel in
+          control of daily expenses, to make decisions with clarity, and to stop
+          wasting money without realizing it.
+        </p>
+        <p>
+          Like a ritual, Oplim became second nature. Each use brought instant
+          feedback, like a hit of dopamine — satisfying, efficient, addictive.
+          It worked so well, it felt almost involuntary.
+        </p>
+        <p>
+          That’s why we chose the poppy as our symbol. Like the flower, Oplim is
+          elegant, powerful, and addictive in the best way possible.
+        </p>
+        <p>
+          The name? It echoes the habit. People might not remember “that finance
+          app,” but they’ll remember “Oplim” — because it sticks.
+        </p>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section dark-section animate-on-scroll">
+        <h2>Get In <span>Touch</span></h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="your@email.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="Tell us about your needs..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span class="btn-text">Send Message</span>
+            <div class="loading-spinner"></div>
+          </button>
+          <div id="form-status"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">Oplim</div>
+        <p>Redefining personal finance management</p>
+        <div class="footer-links">
+          <a href="Privacy.html">Privacy</a>
+          <a href="Terms.html">Terms</a>
+          <a href="contact">Contact</a>
+        </div>
+        <div class="copyright">
+          &copy; <span id="current-year"></span> Oplim. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <button id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

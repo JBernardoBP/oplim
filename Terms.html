@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Use | Oplim</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo">Oplim</div>
+        <ul>
+          <li><a href="index.html#mission">Mission</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#roadmap">Roadmap</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section class="section">
+        <div class="content-box">
+          <h1>Terms of Use</h1>
+          <p class="effective-date"><em>Effective: June 2024</em></p>
+
+          <div class="terms-intro">
+            <p>
+              By accessing or using Oplim's financial management services, you
+              agree to comply with these Terms of Use. Please read them
+              carefully.
+            </p>
+          </div>
+
+          <div class="terms-section">
+            <h2>1. Account Terms</h2>
+            <div class="terms-card-grid">
+              <div class="terms-card">
+                <h3>Eligibility</h3>
+                <p>
+                  You must be at least 18 years old to use our services. By
+                  creating an account, you confirm you meet this requirement.
+                </p>
+              </div>
+              <div class="terms-card">
+                <h3>Account Security</h3>
+                <p>
+                  You're responsible for maintaining the confidentiality of your
+                  login credentials and all activities under your account.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="terms-section">
+            <h2>2. Service Usage</h2>
+            <ul class="terms-list">
+              <li>
+                ✅ <strong>Permitted Use</strong>: Personal financial management
+                only
+              </li>
+              <li>
+                ❌ <strong>Prohibited</strong>: Automated scraping, reverse
+                engineering, or commercial resale
+              </li>
+              <li>
+                📊 <strong>Data Accuracy</strong>: We don't guarantee absolute
+                accuracy of financial calculations
+              </li>
+            </ul>
+          </div>
+
+          <div class="terms-section">
+            <h2>3. Intellectual Property</h2>
+            <div class="ip-grid">
+              <div class="ip-item">
+                <div class="ip-icon">©</div>
+                <h3>Our Rights</h3>
+                <p>
+                  All Oplim software, designs, and content are protected by
+                  copyright and trademark laws.
+                </p>
+              </div>
+              <div class="ip-item">
+                <div class="ip-icon">📝</div>
+                <h3>Your Data</h3>
+                <p>
+                  You retain ownership of your financial data while granting us
+                  limited rights to process it.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="terms-section">
+            <h2>4. Limitations of Liability</h2>
+            <div class="liability-notice">
+              <p>Oplim shall not be liable for:</p>
+              <ul>
+                <li>Indirect, incidental, or consequential damages</li>
+                <li>Financial losses due to reliance on our analytics</li>
+                <li>Service interruptions beyond our reasonable control</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="terms-section">
+            <h2>5. Termination</h2>
+            <p>
+              We may suspend or terminate your access for violation of these
+              terms. You may delete your account at any time.
+            </p>
+          </div>
+
+          <div class="terms-section changes">
+            <h2>6. Changes to Terms</h2>
+            <p>
+              We'll notify users of material changes via email or in-app
+              notification. Continued use constitutes acceptance.
+            </p>
+            <div class="version-history">
+              <p><strong>Last updated</strong>: June 15, 2024</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">Oplim</div>
+        <p>Redefining personal finance management</p>
+        <div class="footer-links">
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html" class="active">Terms</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="copyright">
+          &copy; <span id="current-year"></span> Oplim. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <script src="script.js"></script>
+    <script>
+      // Set current year
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
